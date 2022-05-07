@@ -379,15 +379,15 @@ body::-webkit-scrollbar {
     position: fixed;
     background-color: white;
     border-radius: 25px;
-    width: 28%;
-    height: 8%;
+    width: 550px;
+    height: 80px;
     right: 5%;
     top: 85%;
 }
 
 .sixth .upper_arrow {
-    width: 11%;
-    height: 75%;
+    width: 60px;
+    height: 60px;
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
