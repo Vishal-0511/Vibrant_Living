@@ -300,7 +300,7 @@ body::-webkit-scrollbar {
     font-size: 18px;
     font-weight: 400;
     position: absolute;
-    right: 60%;
+    /* right: 60%; */
 }
 
 .facts li .dot {
