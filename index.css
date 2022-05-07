@@ -77,12 +77,16 @@ body::-webkit-scrollbar {
 
 .fixed img {
     position: fixed;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    z-index: 44;
+    transform: translate(-50%, -50%);
+
+    /* left: 0;
     right: 0;
     width: 37.5rem;
-    z-index: 44;
-    height: 31.25rem;
-    margin: 10% auto;
+    margin: 10% auto; */
     /* background-color: rebeccapurple; */
 }
 
@@ -97,7 +101,7 @@ body::-webkit-scrollbar {
     font-family: 'Playfair Display';
     /* font-style: normal; */
     font-weight: 900;
-    font-size: 8.75rem;
+    font-size: 7.5rem;
     line-height: 7.8rem;
     letter-spacing: -0.01em;
     color: #352817;
