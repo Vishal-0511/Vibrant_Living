@@ -246,7 +246,10 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 35%;
+}
+.facts .center{
+    margin-left: 30%;
 }
 
 .facts span {
@@ -257,9 +260,9 @@ body::-webkit-scrollbar {
 .inside {
     display: flex;
     margin-top: 140px;
-    margin-left: 15%;
+    margin-left: 25%;
     flex-direction: column;
-    width: 30%;
+    width: 45%;
     align-items: center;
     font-family: 'Roboto Mono';
     font-style: normal;
@@ -273,9 +276,11 @@ body::-webkit-scrollbar {
 }
 
 .inside .image {
+    width: 600px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
     z-index: 4;
     justify-content: center;
 }
