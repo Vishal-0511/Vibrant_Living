@@ -219,6 +219,7 @@ body::-webkit-scrollbar {
 
 .container {
     display: flex;
+    align-items: center;
 }
 
 .texture1 img {
@@ -246,7 +247,7 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 35%;
+    width: 50%;
 }
 .facts .center{
     margin-left: 30%;
@@ -369,9 +370,9 @@ body::-webkit-scrollbar {
 }
 
 .fifth img {
-    display: block;
+    position: absolute;
     width: 900px;
-    margin-left: 40%;
+    left: 40%;
 
 }
 
